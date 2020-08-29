@@ -45,6 +45,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--   引用自己定义的api通用包，可以使用Payment支付Entity &ndash;&gt;-->
+        <dependency>
+            <groupId>com.cloud</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

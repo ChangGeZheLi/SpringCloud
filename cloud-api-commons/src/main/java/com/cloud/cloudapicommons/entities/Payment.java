@@ -1,4 +1,4 @@
-package com.cloud.springcloud.entities;
+package com.cloud.cloudapicommons.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,13 +7,14 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
 /**
- * @Description: order实体类
+ * @Description: 数据库payment实体类
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Order implements Serializable {
+public class Payment implements Serializable {
 
     private Long id;
     private String serial;
+
 }
