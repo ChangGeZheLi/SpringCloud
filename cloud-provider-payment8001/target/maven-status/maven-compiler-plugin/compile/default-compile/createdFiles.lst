@@ -1,0 +1,7 @@
+com\cloud\springcloud\controller\PaymentController.class
+com\cloud\springcloud\service\impl\PaymentServiceImpl.class
+com\cloud\springcloud\entities\Payment.class
+com\cloud\springcloud\entities\CommonResult.class
+com\cloud\springcloud\dao\PaymentDao.class
+com\cloud\springcloud\service\PaymentService.class
+com\cloud\springcloud\CloudProviderPaymentApplication.class
