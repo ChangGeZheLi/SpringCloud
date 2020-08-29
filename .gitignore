@@ -8,6 +8,8 @@
 out
 gen
 target
+*.iws
+*.ipr
 ### Java template
 # Compiled class file
 *.class
