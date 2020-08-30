@@ -13,6 +13,15 @@ spring:
 
 mybatis:
   # 所有Entity别名类所在包
-  type-aliases-package: com.cloud.springcloud.entities
+  type-aliases-package: com.cloud.cloudapicommons.entities
   # 配置文件所在位置
   mapper-locations: classpath:mapper/*.xml
+
+eureka:
+  client:
+    # 表示是否将自己注册进Eureka注册中心
+    register-with-eureka: true
+    # 是否从Eureka注册中心拉取已经注册的服务信息
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
