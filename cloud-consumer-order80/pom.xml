@@ -17,7 +17,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
-        <!--   引用自己定义的api通用包，可以使用Payment支付Entity &ndash;&gt;-->
+        <!--   引用自己定义的api通用包，可以使用Payment支付Entity-->
         <dependency>
             <groupId>com.cloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
