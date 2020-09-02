@@ -1,6 +1,7 @@
 package com.cloud.springcloud.service;
 
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @Description:
@@ -19,4 +20,9 @@ public interface PaymentService {
      * @Param [id]
      **/
     public String paymentInfo_Timeout(Integer id);
+
+    /**
+     * 服务熔断测试
+     **/
+    public String paymentCircuitBreaker(@PathVariable("id") Integer id);
 }

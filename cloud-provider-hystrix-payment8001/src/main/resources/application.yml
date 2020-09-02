@@ -10,3 +10,10 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka
     register-with-eureka: true
     fetch-registry: true
+
+#暴露全部的监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info","hystrix.stream"]
