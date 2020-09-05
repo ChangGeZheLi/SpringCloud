@@ -1,6 +1,6 @@
 # 系统级的，优先级更高
 server:
-  port: 3355
+  port: 3366
 spring:
   application:
     name: cloud-config-client
